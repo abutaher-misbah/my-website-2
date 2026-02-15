@@ -1,3 +1,79 @@
-h1{
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1a1244;
+   
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: black;
     color: red;
+    border-radius: 5px;
+}
+
+nav div {
+    color: white;
+    font-size: 20px;
+}
+
+/* header parte code hear */
+
+header {}
+
+header div {
+    background-image: url(midea/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header div input{
+    width: 50%;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    transition: 0.5s;
+}
+
+header div a i{
+    font-size: 20px;
+    color: rgb(153, 7, 7);
+    padding: 10px 5px;
+    background-color: rgb(92, 161, 85);
+    height: 20px;
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid black;
+   
 }
