@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -43,48 +44,6 @@ nav div {
     font-size: 20px;
 }
 
-/* header parte code hear */
-
-header {}
-
-header div {
-    background-image: url(midea/header.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-header div input {
-    width: 50%;
-    height: 40px;
-    font-size: 15px;
-    padding: 5px 20px;
-    border: none;
-    outline: none;
-    border-radius: 5px 0 0 5px;
-    transition: 0.5s;
-   
-}
-
-header div a i {
-    font-size: 20px;
-    color: rgba(224, 15, 15, 0.822);
-}
-
-header div a {
-    background-color: green;
-    padding: 10px 10px;
-    border-radius: 0 5px 5px 0;
-}
-
-/* main teg css code hear */
 
 main {
     background-color: #2d236a;
@@ -186,69 +145,4 @@ main {
 
 .previus-next-parent>h3>a:hover {
     background-color: #057049;
-}
-
-/* footer part css code hear */
-
-footer {
-    background-color: #621e68;
-}
-
-.footer-container {
-    width: 70%;
-    margin: auto;
-}
-
-.footer-item-parent {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-
-.footer-single-item-1 {
-    color: #ffffffcb;
-}
-
-.footer-single-item-1 p {
-    width: 250px;
-    margin: 20px 0;
-    color: #ffffffc9;
-
-}
-
-.footer-single-item-2 {
-    color: #ffffffcb;
-}
-
-.footer-single-item-2 p a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 8px;
-    color: #ffffffc9;
-}
-
-
-.footer-single-item-3 a {
-    display: inline-block;
-    color: #ffffffcb;
-    background-color: #2d236a;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-
-
-}
-
-
-.footer-single-item-3 p {
-    margin: 10px 0;
-    color: #ffffffc9;
-
-}
-
-
-
-.footer-single-item-3 h4 {
-    margin-top: 60px;
-    color: #ffffffc9;
 }
