@@ -12,6 +12,7 @@ nav {
     padding: 10px 0;
     position: sticky;
     top: 0;
+    height: 70px;
 }
 
 nav ul {
@@ -41,6 +42,57 @@ nav ul li a:hover {
 nav div {
     color: white;
     font-size: 20px;
+}
+
+#click{
+    display: none;
+}
+.menu-bar{
+    font-size: 22px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+
+/* nevbar responsiv desine code here */
+
+@media only screen and (max-width:940px) {
+    nav ul{
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: 60px;
+        background-color: #2d236a;
+        text-align: center;
+        padding-top: 20px;
+       left: -100%;
+        transition: all 0.5s ease;
+
+    }
+
+    nav ul li{
+        margin: 40px 0;
+    }
+    nav ul li a:hover{
+        background: none;
+
+    }
+
+    .menu-bar{
+        display: block;
+        margin-left: 50px;
+    }
+
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .menu-bar i::before{
+        content: "\f00d";
+        color: red;
+    }
+
 }
 
 /* header parte code hear */
